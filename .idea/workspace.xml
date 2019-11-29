@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ab099e0-b40b-4da8-a1db-b56e44206750" name="Default Changelist" comment="" />
+    <list default="true" id="5ab099e0-b40b-4da8-a1db-b56e44206750" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/HeaderParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Md2HtmlUnderline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Template.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/TextParser.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +49,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -91,8 +100,16 @@
       <updated>1573571327689</updated>
       <workItem from="1573571331006" duration="857000" />
       <workItem from="1574617072522" duration="17055000" />
-      <workItem from="1574796833814" duration="11000000" />
+      <workItem from="1574796833814" duration="11338000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1575043528714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575043528714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>
