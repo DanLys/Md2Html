@@ -12,7 +12,7 @@ public class Template {
             "`", "code",
             "++", "u"
     );
-    private Map<Character, String> templChar = Map.of(
+    private final static Map<Character, String> templChar = Map.of(
             '>', "&gt;",
             '<', "&lt;",
             '&', "&amp;"

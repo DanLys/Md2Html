@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab099e0-b40b-4da8-a1db-b56e44206750" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/HeaderParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Md2HtmlUnderline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Template.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/TextParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Template.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +32,11 @@
   </component>
   <component name="ProjectId" id="1TWMJjOxG1jtORdeMfpSfdICN6a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -49,24 +50,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Md2Html" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Md2Html" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,6 +77,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -100,7 +101,8 @@
       <updated>1573571327689</updated>
       <workItem from="1573571331006" duration="857000" />
       <workItem from="1574617072522" duration="17055000" />
-      <workItem from="1574796833814" duration="11338000" />
+      <workItem from="1574796833814" duration="11809000" />
+      <workItem from="1575044853922" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1575043528714</created>
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575043528714</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete class">
+      <created>1575043732278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575043732278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +129,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -128,6 +139,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="delete class" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete class" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1575044977837">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575044977837" />
   </component>
 </project>
