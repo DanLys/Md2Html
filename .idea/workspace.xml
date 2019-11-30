@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab099e0-b40b-4da8-a1db-b56e44206750" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,8 @@
       <workItem from="1573571331006" duration="857000" />
       <workItem from="1574617072522" duration="17055000" />
       <workItem from="1574796833814" duration="11809000" />
-      <workItem from="1575044853922" duration="980000" />
+      <workItem from="1575044853922" duration="1219000" />
+      <workItem from="1575051408801" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1575043528714</created>
@@ -118,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575043732278</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Source">
+      <created>1575045849694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575045849694</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,12 +145,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="delete class" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete class" />
+    <MESSAGE value="Source" />
+    <option name="LAST_COMMIT_MESSAGE" value="Source" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575045849476">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575045849476" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1575044977837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575044977837" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575045858169">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575045858169" />
   </component>
 </project>

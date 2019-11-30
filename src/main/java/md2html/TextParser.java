@@ -3,7 +3,7 @@ package md2html;
 public class TextParser {
     private StringBuilder text;
     private Template template;
-    private int point;
+    private int index;
 
     public TextParser(StringBuilder text) {
         this.text = text;
@@ -34,8 +34,8 @@ public class TextParser {
         StringBuilder openTeg = template.getOpenTeg(teg);
         str.append(openTeg);
 
-        point = from;
-        for (int i = from; i < text.length(); i++, point++) {
+        index = from;
+        for (int i = from; i < text.length(); i++, index++) {
             if (text.charAt(i) == '\\') {
                 continue;
             }
@@ -44,12 +44,12 @@ public class TextParser {
 
             if (tegP.substring(0, flag).equals(teg) && !teg.isBlank()) {
                 str.append(template.getCloseTeg(teg));
-                point += flag;
+                index += flag;
                 return str.toString();
             }
             if (flag > 0) {
                 str.append(parser(tegP.substring(0, flag), i + flag));
-                i = --point;
+                i = --index;
             } else {
                 pushChar(text.charAt(i), str);
             }
