@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab099e0-b40b-4da8-a1db-b56e44206750" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/HeaderParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Template.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test33.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test33.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Source.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +37,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1TWMJjOxG1jtORdeMfpSfdICN6a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -100,7 +112,9 @@
       <workItem from="1574617072522" duration="17055000" />
       <workItem from="1574796833814" duration="11809000" />
       <workItem from="1575044853922" duration="1219000" />
-      <workItem from="1575051408801" duration="431000" />
+      <workItem from="1575051408801" duration="546000" />
+      <workItem from="1575149461856" duration="296000" />
+      <workItem from="1575150059059" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1575043528714</created>
@@ -123,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575045849694</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="index">
+      <created>1575122674191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575122674191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,23 +164,29 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new" />
     <MESSAGE value="delete class" />
     <MESSAGE value="Source" />
-    <option name="LAST_COMMIT_MESSAGE" value="Source" />
+    <MESSAGE value="index" />
+    <option name="LAST_COMMIT_MESSAGE" value="index" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575045849476">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575122673985">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575045849476" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575122673985" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1575044977837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575044977837" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575045858169">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575122682601">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575045858169" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575122682601" />
+    <state x="97" y="72" key="new project wizard" timestamp="1575122753315">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1575122753315" />
   </component>
 </project>

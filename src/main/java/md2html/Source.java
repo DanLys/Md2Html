@@ -26,7 +26,7 @@ public class Source {
             return input.readLine();
         } catch (IOException e) {
             System.err.println("Couldn't read line" + e.getMessage());
-            return "";
+            return null;
         }
     }
 
