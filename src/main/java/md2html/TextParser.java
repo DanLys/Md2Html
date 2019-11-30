@@ -1,5 +1,7 @@
 package md2html;
 
+import static java.lang.Character.isWhitespace;
+
 public class TextParser {
     private StringBuilder text;
     private Template template;
@@ -47,7 +49,7 @@ public class TextParser {
                 index += flag;
                 return str.toString();
             }
-            if (flag > 0) {
+            if (flag > 0 && i + flag + 1 < text.length() && !isWhitespace(text.charAt(i + flag + 1))) {
                 str.append(parser(tegP.substring(0, flag), i + flag));
                 i = --index;
             } else {
