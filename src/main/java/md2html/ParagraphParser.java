@@ -7,7 +7,7 @@ public class ParagraphParser {
         this.paragraph = paragraph;
     }
 
-    private boolean isHeader() {
+    private boolean isHeader() {// переписать
         int index = 0;
         while (index < paragraph.length() && paragraph.charAt(index) == '#') {
             index++;

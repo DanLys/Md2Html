@@ -20,13 +20,12 @@ public class Template {
 
     public Template () {}
 
-
     public StringBuilder get(String tegMark) {
         return new StringBuilder(templ.getOrDefault(tegMark, ""));
     }
 
     public String getC(char c) {
-        return templChar.getOrDefault(c, null);
+        return templChar.getOrDefault(c, String.valueOf(c));
     }
 
     public StringBuilder getOpenTeg(String tegMark) {

@@ -9,7 +9,13 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Source.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Template.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Template.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +118,8 @@
       <workItem from="1575044853922" duration="1219000" />
       <workItem from="1575051408801" duration="546000" />
       <workItem from="1575149461856" duration="296000" />
-      <workItem from="1575150059059" duration="838000" />
+      <workItem from="1575150059059" duration="2312000" />
+      <workItem from="1575236297640" duration="4339000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1575043528714</created>
@@ -149,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575150142777</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Invalid text">
+      <created>1575151026648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575151026648</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,28 +189,37 @@
     <MESSAGE value="Source" />
     <MESSAGE value="index" />
     <MESSAGE value="Source Null" />
-    <option name="LAST_COMMIT_MESSAGE" value="Source Null" />
+    <MESSAGE value="Invalid text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Invalid text" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575150142638">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575151026509">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575150142638" />
-    <state x="144" y="78" key="DiffContextDialog" timestamp="1575150130465">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575151026509" />
+    <state x="144" y="78" key="DiffContextDialog" timestamp="1575151012330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1575150130465" />
+    <state x="144" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1575151012330" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1575044977837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575044977837" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575150149207">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575151034971">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575150149207" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575151034971" />
     <state x="97" y="72" key="new project wizard" timestamp="1575122753315">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="97" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1575122753315" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1575236715374">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1575236715374" />
+    <state x="385" y="196" key="search.everywhere.popup" timestamp="1575237678504">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1575237678504" />
   </component>
 </project>

@@ -1,7 +1,5 @@
 package md2html;
 
-import static java.lang.Character.isWhitespace;
-
 public class TextParser {
     private StringBuilder text;
     private Template template;
@@ -23,41 +21,40 @@ public class TextParser {
     }
 
     private void pushChar(char c, StringBuilder str) {
-        String s = template.getC(c);
-        if (s != null) {
-            str.append(s);
-            return;
-        }
-        str.append(c);
+        str.append(template.getC(c));
     }
 
     private String parser(String teg, int from) {
         StringBuilder str = new StringBuilder();
-        StringBuilder openTeg = template.getOpenTeg(teg);
-        str.append(openTeg);
 
         index = from;
         for (int i = from; i < text.length(); i++, index++) {
             if (text.charAt(i) == '\\') {
-                continue;
+                if (i + 1 < text.length()) {
+                    pushChar(text.charAt(i + 1), str);
+                    i++;
+                    index++;
+                    continue;
+                }
             }
             String tegP = text.substring(i, Math.min(i + 2, text.length()));
             int flag = isTeg(tegP);
+            tegP = tegP.substring(0, flag);
 
-            if (tegP.substring(0, flag).equals(teg) && !teg.isBlank()) {
+            if (tegP.equals(teg) && !teg.isBlank()) {
                 str.append(template.getCloseTeg(teg));
                 index += flag;
-                return str.toString();
+                return template.getOpenTeg(teg).append(str).toString();
             }
-            if (flag > 0 && i + flag + 1 < text.length() && !isWhitespace(text.charAt(i + flag + 1))) {
-                str.append(parser(tegP.substring(0, flag), i + flag));
+            if (flag > 0) {
+                str.append(parser(tegP, i + flag));
                 i = --index;
             } else {
                 pushChar(text.charAt(i), str);
             }
         }
 
-        return teg + str.substring(openTeg.length());
+        return teg + str.toString();
     }
 
     public void toHtml(StringBuilder resultHtml) {
