@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab099e0-b40b-4da8-a1db-b56e44206750" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/HeaderParser.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Paragraph.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Parser.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Source.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Template.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Paragraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Source.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +120,8 @@
       <workItem from="1575149461856" duration="296000" />
       <workItem from="1575150059059" duration="2312000" />
       <workItem from="1575236297640" duration="4682000" />
-      <workItem from="1575288822457" duration="2125000" />
+      <workItem from="1575288822457" duration="2594000" />
+      <workItem from="1575291498485" duration="5762000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1575043528714</created>
@@ -175,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575289319589</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Paragraph">
+      <created>1575291181223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575291181223</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,13 +215,18 @@
     <MESSAGE value="Invalid text" />
     <MESSAGE value="Refresh" />
     <MESSAGE value="Tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag" />
+    <MESSAGE value="Paragraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paragraph" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575289319464">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575292552675">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575289319464" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1575292552675" />
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575291181101">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575291181101" />
     <state x="144" y="78" key="DiffContextDialog" timestamp="1575151012330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

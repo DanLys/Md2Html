@@ -3,7 +3,7 @@ package md2html;
 import java.util.Map;
 
 public class Template {
-    private final static Map<String, String> templ = Map.of(
+    private static final Map<String, String> templ = Map.of(
             "*", "em",
             "_", "em",
             "**", "strong",
@@ -12,7 +12,7 @@ public class Template {
             "`", "code",
             "++", "u"
     );
-    private final static Map<Character, String> templChar = Map.of(
+    private static final Map<Character, String> templChar = Map.of(
             '>', "&gt;",
             '<', "&lt;",
             '&', "&amp;"

@@ -19,7 +19,13 @@ public class ParagraphParser {
         if (isHeader()) {
             new HeaderParser(paragraph).toHtml(resultHtml);
         } else {
-            new Paragraph(paragraph).toHtml(resultHtml);
+            paragraph(paragraph, resultHtml);
         }
+    }
+
+    private void paragraph(final StringBuilder paragraph, StringBuilder resultHtml) {
+        resultHtml.append("<p>");
+        new TextParser(paragraph).toHtml(resultHtml);
+        resultHtml.append("</p>");
     }
 }

@@ -37,6 +37,7 @@ public class TextParser {
                     continue;
                 }
             }
+
             String tagP = text.substring(i, Math.min(i + 2, text.length()));
             int flag = isTeg(tagP);
             tagP = tagP.substring(0, flag);

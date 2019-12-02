@@ -1,46 +1,71 @@
 package md2html;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class Md2Html {
     public static void main(String[] args) {
-        Source source;
-        try {
-            source = new Source(args);
-        } catch (FileNotFoundException e) {
-            System.err.println(e.getMessage());
+        if (args.length != 2) {
+            System.err.println("No 2 files");
             return;
         }
 
-        StringBuilder paragraph = new StringBuilder();
-        String str = "";
         StringBuilder resultHtml = new StringBuilder();
         try {
-            while (str != null && (str = source.readLine()) != null) {
-                while (str != null && !str.equals("")) {
-                    paragraph.append(str);
-                    paragraph.append('\n');
-                    str = source.readLine();
+            BufferedReader input = new BufferedReader(
+                                       new InputStreamReader(
+                                           new FileInputStream(
+                                               new File(args[0])), StandardCharsets.UTF_8)
+            );
+
+            try {
+                StringBuilder paragraph = new StringBuilder();
+                String str = "";
+
+                while (str != null && (str = input.readLine()) != null) {
+                    while (str != null && !str.isEmpty()) {
+                        paragraph.append(str).append('\n');
+                        str = input.readLine();
+                    }
+
+                    if (paragraph.length() != 0) {
+                        paragraph.setLength(paragraph.length() - 1);
+                        new ParagraphParser(paragraph).toHtml(resultHtml);
+                        resultHtml.append('\n');
+                        paragraph.setLength(0);
+                    }
                 }
-                if (paragraph.length() != 0) {
-                    paragraph.setLength(paragraph.length() - 1);
-                    new ParagraphParser(paragraph).toHtml(resultHtml);
-                    resultHtml.append('\n');
-                    paragraph.setLength(0);
-                }
+            } finally {
+                input.close();
             }
+        } catch (FileNotFoundException e) {
+            System.err.println("Couldn't open file" + e.getMessage());
+            return;
+        } catch (UnsupportedEncodingException e) {
+            System.err.println("UnsupportedEncoding in input" + e.getMessage());
+            return;
         } catch (IOException e) {
             System.err.println("Input error" + e.getMessage());
             return;
         }
 
         try {
-            source.write(resultHtml);
+            BufferedWriter output = new BufferedWriter(
+                                        new OutputStreamWriter(
+                                            new FileOutputStream(
+                                                new File(args[1])), StandardCharsets.UTF_8)
+            );
+            try {
+                output.write(resultHtml.toString());
+            } finally {
+                output.close();
+            }
+        } catch (FileNotFoundException e) {
+            System.err.println("Couldn't open output" + e.getMessage());
+        } catch (UnsupportedEncodingException e) {
+            System.err.println("UnsupportedEncoding in output" + e.getMessage());
         } catch (IOException e) {
-            System.err.println("Couldn't write" + e.getMessage());
-        } finally {
-            source.close();
+            System.err.println("Output error" + e.getMessage());
         }
     }
 }
