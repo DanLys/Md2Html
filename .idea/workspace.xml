@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab099e0-b40b-4da8-a1db-b56e44206750" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/HeaderParser.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/Md2Html.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.class" afterDir="false" />
@@ -11,8 +12,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/ParagraphParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/TextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/md2html/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/md2html/Paragraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -116,7 +117,7 @@
       <workItem from="1575149461856" duration="296000" />
       <workItem from="1575150059059" duration="2312000" />
       <workItem from="1575236297640" duration="4682000" />
-      <workItem from="1575288822457" duration="235000" />
+      <workItem from="1575288822457" duration="2125000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1575043528714</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575240699077</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tag">
+      <created>1575289319589</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575289319589</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,13 +203,14 @@
     <MESSAGE value="Source Null" />
     <MESSAGE value="Invalid text" />
     <MESSAGE value="Refresh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refresh" />
+    <MESSAGE value="Tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575240698956">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1575289319464">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575240698956" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575289319464" />
     <state x="144" y="78" key="DiffContextDialog" timestamp="1575151012330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -210,10 +219,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575044977837" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575240707436">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1575289329121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575240707436" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1575289329121" />
     <state x="97" y="72" key="new project wizard" timestamp="1575122753315">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

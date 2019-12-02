@@ -19,7 +19,7 @@ public class ParagraphParser {
         if (isHeader()) {
             new HeaderParser(paragraph).toHtml(resultHtml);
         } else {
-            new Parser(paragraph).toHtml(resultHtml);
+            new Paragraph(paragraph).toHtml(resultHtml);
         }
     }
 }

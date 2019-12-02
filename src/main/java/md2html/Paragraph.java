@@ -1,9 +1,9 @@
 package md2html;
 
-public class Parser {
+public class Paragraph {
     private StringBuilder paragraph;
 
-    public Parser(StringBuilder paragraph) {
+    public Paragraph(StringBuilder paragraph) {
         this.paragraph = paragraph;
     }
 
