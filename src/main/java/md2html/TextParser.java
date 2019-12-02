@@ -10,21 +10,21 @@ public class TextParser {
         template = new Template();
     }
 
-    private int isTeg(String teg) {
-        StringBuilder tegRes = template.get(teg);
-        if (tegRes.length() > 0) {
+    private int isTeg(String tag) {
+        StringBuilder tagRes = template.get(tag);
+        if (tagRes.length() > 0) {
             return 2;
         }
 
-        tegRes = template.get(teg.substring(0, 1));
-        return (tegRes.length() == 0 ? 0 : 1);
+        tagRes = template.get(tag.substring(0, 1));
+        return (tagRes.length() == 0 ? 0 : 1);
     }
 
     private void pushChar(char c, StringBuilder str) {
         str.append(template.getC(c));
     }
 
-    private String parser(String teg, int from) {
+    private String parser(String tag, int from) {
         StringBuilder str = new StringBuilder();
 
         index = from;
@@ -37,24 +37,24 @@ public class TextParser {
                     continue;
                 }
             }
-            String tegP = text.substring(i, Math.min(i + 2, text.length()));
-            int flag = isTeg(tegP);
-            tegP = tegP.substring(0, flag);
+            String tagP = text.substring(i, Math.min(i + 2, text.length()));
+            int flag = isTeg(tagP);
+            tagP = tagP.substring(0, flag);
 
-            if (tegP.equals(teg) && !teg.isBlank()) {
-                str.append(template.getCloseTeg(teg));
+            if (tagP.equals(tag) && !tag.isBlank()) {
+                str.append(template.getCloseTag(tag));
                 index += flag;
-                return template.getOpenTeg(teg).append(str).toString();
+                return template.getOpenTag(tag).append(str).toString();
             }
             if (flag > 0) {
-                str.append(parser(tegP, i + flag));
+                str.append(parser(tagP, i + flag));
                 i = --index;
             } else {
                 pushChar(text.charAt(i), str);
             }
         }
 
-        return teg + str.toString();
+        return tag + str.toString();
     }
 
     public void toHtml(StringBuilder resultHtml) {

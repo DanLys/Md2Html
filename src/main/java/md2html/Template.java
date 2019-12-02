@@ -20,25 +20,25 @@ public class Template {
 
     public Template () {}
 
-    public StringBuilder get(String tegMark) {
-        return new StringBuilder(templ.getOrDefault(tegMark, ""));
+    public StringBuilder get(String tagMark) {
+        return new StringBuilder(templ.getOrDefault(tagMark, ""));
     }
 
     public String getC(char c) {
         return templChar.getOrDefault(c, String.valueOf(c));
     }
 
-    public StringBuilder getOpenTeg(String tegMark) {
+    public StringBuilder getOpenTag(String tagMark) {
         StringBuilder tmp = new StringBuilder();
         tmp.append("<");
-        tmp.append(templ.get(tegMark));
+        tmp.append(templ.get(tagMark));
         return tmp.append(">");
     }
 
-    public StringBuilder getCloseTeg(String tegMark) {
+    public StringBuilder getCloseTag(String tagMark) {
         StringBuilder tmp = new StringBuilder();
         tmp.append("</");
-        tmp.append(templ.get(tegMark));
+        tmp.append(templ.get(tagMark));
         return tmp.append(">");
     }
 }
